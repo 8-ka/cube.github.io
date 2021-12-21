@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 920px;
+}
+
+.description__container {
+    border: 2px solid black;
+    width: fit-content;
+}
+
+.container__p-list {
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    text-align: justify;
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
